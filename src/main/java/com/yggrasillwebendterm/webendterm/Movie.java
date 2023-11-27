@@ -17,11 +17,12 @@ import java.util.List;
 public class Movie {
     @Id
     private ObjectId id;
-    private String imdbid;
+    private String imdbId;
     private String title;
     private String releaseDate;
     private String trailer;
     private String poster;
     private List<String> genres;
     private List<String> backdrops;
+    private List<Review> reviewIds;
 }
